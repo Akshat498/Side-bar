@@ -106,7 +106,6 @@ section {
     opacity: 50%;
     display: none;
     z-index: 99;
-    position: absolute;
     width: 1440px;
     height: 1024px;
     background: #B8B8B8;
@@ -114,4 +113,6 @@ section {
 
 .upper-layer.show {
     display: block;
+    width: 100%;
+    height: 100%;
 }
